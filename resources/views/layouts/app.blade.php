@@ -31,6 +31,7 @@
             <main>
                 {{ $slot }}
             <h1>helo</h1>
+            <h1>helo</h1>
             </main>
         </div>
     </body>
