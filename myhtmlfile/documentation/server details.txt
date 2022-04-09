@@ -10,3 +10,53 @@ github account
 username:hmrinal.agnitio@gmail.com 
 password: hmrinal2021
 hmrinalagnitio
+
+
+===============================
+||     Admin Dashbord         ||
+ ===============================
+
+1.  Register admin (super admin)
+2.  admin Login
+3.  all admin  list show only super admin
+
+======================== 
+4. Menu->user
+5. all User data list table show with (paid and Unpaid)
+
+===================
+6. Menu->Contest
+7. Daily
+    1. all weekly perticipation table
+    2. prize
+    3. Award List
+    4. Rank
+8. Weekly
+    1. all weekly perticipation table
+    2. prize
+    3. Award List
+    4. Rank
+
+9. Monthly
+    1. all weekly perticipation table
+    2. prize
+    3. Award List
+    4. Rank
+10. Quarterly
+    1. all weekly perticipation table
+    2. prize
+    3. Award List
+    4. Rank
+11. Annually
+    1. all weekly perticipation table
+    2. prize
+    3. Award List
+    4. Rank
+
+12. Entry Rules
+13. Entry Form
+14. Payment
+15. Status
+16. Result
+17. contact Us
+
