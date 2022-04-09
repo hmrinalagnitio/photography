@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\frontend\HomeController;
+use App\Http\Controllers\frontend\EditImageController;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,8 +24,10 @@ Route::get('/dashboard', function () {
 })->middleware(['auth'])->name('dashboard');
 
 // home controller
-Route::resource('', HomeController::class);
+Route::get('', [HomeController::class,'index']);
 
+// for Edit Image Controller
+Route::get('editImg',[EditImageController::class, 'index']);
 
 
 
