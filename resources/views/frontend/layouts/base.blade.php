@@ -6,19 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Photography salon 2022</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css ') }}"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
     <!-- font-family: 'Mulish', sans-serif;
     font-family: 'Poppins', sans-serif; -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+    <!-- font-family: 'Playfair Display', serif; -->
     <!-- Bootstrap CSS -->
-    <link href="{{ asset('frontend/assets/css/bootstrap.css ') }}" rel="stylesheet">
+    <link href="{{ asset('frontend/assets/css/bootstrap.css') }}" rel="stylesheet">
     <!-- slick CSS -->    
-    <link rel="stylesheet" href="{{ asset('frontend/assets/css/slick.css ') }}" type="text/css">
-    <link rel="stylesheet" href="{{ asset('frontend/assets/css/slick-theme.css ') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('frontend/assets/css/slick.css' )}}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('frontend/assets/css/slick-theme.css' )}}" type="text/css">
 
-    <link href="{{ asset('frontend/assets/css/style.css ') }}" rel="stylesheet">
+    <link href="{{ asset('frontend/assets/css/style.css' )}}" rel="stylesheet">
     @livewireStyles
   </head>
   <body>
@@ -64,12 +66,12 @@
             </div>
             <nav class="nav-primary">
               <ul class="clearfix">
-                <li><a href="#">Home</a></li>
+                <li><a href="{{ route('home') }}">Home</a></li>
                 <li><a href="#">Entry Rules</a></li>
                 <li><a href="#">Entry Form</a></li>
-                <li><a href="#">Payment</a></li>
-                <li><a href="#">Status</a></li>
-                <li><a href="#">Results</a></li>
+                <li><a href="{{ route('payment') }}">Payment</a></li>
+                <li><a href="{{ route('status') }}">Status</a></li>
+                <li><a href="{{ route('result') }}">Results</a></li>
                 <li><a href="#">Contact Us</a></li>
               </ul>
             </nav>
